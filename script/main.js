@@ -10,8 +10,8 @@ var cnt = 0;
 function appendSingleNote(data) {
     var content = data.content, title = data.title, count = data.id;
     
-    var html = '<div class="note" id="' + count + '">' + '<form class="header-form">' +
-        '<button onclick="removeNote(' + count + ')" style = " float: right; border: 0; background: transparent; outline: 0; padding: 5px 10px; font-size: 13px; font-weight: 700;">^</button>'+            
+    var html = '<div class="note" id="' + count + '">' + '<form class="header-form" style = "background : yellow;">' +
+        '<button onclick="removeNote(' + count + ')" style = " float: right; border: 0;color: red; background: transparent; outline: 0; padding: 5px 10px; font-size: 13px; font-weight: 700;">^</button>'+            
         '<p class="note-title">' +
                      
                     title + 
